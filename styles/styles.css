@@ -1,0 +1,26 @@
+nav {
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	top: 50px;
+	border: 2px black;
+	width: 100%;
+	font-family: 'Ranchers', serif;
+	background-color: rgb(22, 204, 236);
+	text-align: left;
+	font-size: 20px;
+	text-decoration: none;
+	/* display: inline; */
+}
+
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 22px;
+	letter-spacing: 2px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	text-transform: none;
+}
