@@ -1,26 +1,130 @@
+body {
+	font-family: 'Inter', serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 16px;
+}
+
 nav {
 	position: fixed;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	top: 50px;
 	border: 2px black;
 	width: 100%;
-	font-family: 'Ranchers', serif;
-	background-color: rgb(22, 204, 236);
+	/* background-color: rgb(22, 204, 236); */
 	text-align: left;
 	font-size: 20px;
-	text-decoration: none;
-	/* display: inline; */
+	font-weight: bold;
 }
 
-body {
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 22px;
-	letter-spacing: 2px;
-	word-spacing: 0px;
-	color: #000000;
-	font-weight: 400;
-	text-decoration: none;
-	font-style: normal;
-	text-transform: none;
+.menu h2 {
+    text-align: left;
 }
+
+table {
+    width: 80%;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+thead th {
+    text-align: left;
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+tbody td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.dish-row {
+    margin-bottom: 20px;
+}
+
+.dish-name {
+  font-size: 18px;
+    font-weight: bold;
+}
+
+.dish-description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.sub-description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+tbody tr td {
+    border: none;
+}
+
+.price {
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* 
+table.MenuTable {
+  font-family: 'Inter', serif;
+  border: 2px solid #FFFFFF;
+  background-color: #EEEEEE;
+  width: 60%;
+  text-align: center;
+  border-collapse: collapse;
+}
+/* .table-left-align td {
+				text-align: left;
+			} */
+table.MenuTable td, table.MenuTable th {
+  padding: 3px 4px;
+}
+table.MenuTable tbody td {
+  font-size: 16px;
+}
+table.MenuTable tr:nth-child(even) {
+  background: #F5DA0A;
+}
+table.MenuTable thead {
+  background: #FFBC00;
+  background: -moz-linear-gradient(top, #ffcd40 0%, #ffc219 66%, #FFBC00 100%);
+  background: -webkit-linear-gradient(top, #ffcd40 0%, #ffc219 66%, #FFBC00 100%);
+  background: linear-gradient(to bottom, #ffcd40 0%, #ffc219 66%, #FFBC00 100%);
+  border-bottom: 4px solid #333333;
+}
+table.MenuTable thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+table.MenuTable tfoot td {
+  font-size: 14px;
+} 
