@@ -1,15 +1,24 @@
 /* stylesheet for Menu page to help better organize code */
 
+.menu-box {
+	width: 90%;
+	max-width: 1000px;
+	padding: 20px;
+	margin: 30px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
 .menu h2 {
-	text-align: left;
+	text-align: center;
+	color: #333;
 }
 
 table {
-	width: 80%;
-	justify-content: center;
+	width: 100%;
 	border-collapse: collapse;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 20px 0;
 }
 
 thead th {
@@ -20,36 +29,52 @@ thead th {
 	padding-bottom: 10px;
 }
 
-tbody td {
+tfoot th {
+	border-top: 2px solid #333;
+	padding-top: 10px;
+}
+
+tbody tr {
+	border-bottom: 1px solid #ddd;
+}
+
+tbody tr td {
+	border: none;
+}
+
+.dish-row td {
 	padding: 10px;
 	vertical-align: top;
 }
 
-.dish-row {
-	margin-bottom: 20px;
-}
-
 .dish-name {
-	font-size: 18px;
 	font-weight: bold;
+	font-size: 18px;
 }
 
 .dish-description {
-	font-size: 16px;
+	font-style: normal;
+	font-size: 15px;
 	color: #666;
 	margin-top: 5px;
+}
+
+.price {
+	text-align: right;
+	font-weight: bold;
 }
 
 .sub-description {
+	list-style-type: none;
+	padding-left: 5px;
 	margin-top: 5px;
-	font-size: 14px;
-	color: #666;
-	padding-left: 15px;
-	list-style-type: disc;
+	margin-bottom: 10px;
 }
 
-tbody tr {
-	border-bottom: 1px solid #ccc;
+.sub-description li {
+	font-style: italic;
+	color: #333;
+	font-size: 14px;
 }
 
 tbody tr:nth-child(odd) {
@@ -58,14 +83,4 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
 	background-color: #e0e0e0;
-}
-
-tbody tr td {
-	border: none;
-}
-
-.price {
-	text-align: right;
-	padding-left: 20px;
-	padding-right: 20px;
 }

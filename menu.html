@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="styles/menu.css" />
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -19,6 +17,7 @@
 		/>
 		<link rel="shortcut icon" href="images/LEGO_favicon.png" type="image/png" />
 		<link rel="stylesheet" href="styles/styles.css" />
+		<link rel="stylesheet" href="styles/menu.css" />
 		<title>Portland Adventure Center - Menu</title>
 	</head>
 	<body>
@@ -26,18 +25,20 @@
 			<h2>LEGO-Palooza Menu</h2>
 			<nav>
 				<div class="nav">
-					<a href="index.html">Home</a>
-					<a href="events.html">Events</a>
-					<a href="menu.html">Menu</a>
-					<a href="location.html">Location</a>
-					<a href="contact.html">Contact Us</a>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="menu.html" class="active">Menu</a></li>
+						<li><a href="location.html">Location</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
 				</div>
 			</nav>
 		</header>
 
 		<main>
-			<section class="menu">
-				<h2>Food Menu</h2>
+			<h2>Food Menu</h2>
+			<section class="menu-box">
 				<table>
 					<thead>
 						<tr>
@@ -58,7 +59,7 @@
 							<td>
 								<div class="dish-name">Mini Figs</div>
 								<div class="dish-description">
-									Bite-sized flatbreads topped with carmalized onions and
+									Bite-sized flatbreads topped with caramelized onions and
 									locally sourced fig jam
 								</div>
 							</td>
@@ -70,16 +71,87 @@
 								<div class="dish-description">
 									Layered nachos with all the toppings, served with a side of
 									brick-shaped tortilla chips
-									<ul class="sub-description">
-										<li>Extra Cheese</li>
-										<li>Sour Cream</li>
-										<li>Guacamole</li>
-									</ul>
 								</div>
 							</td>
 							<td class="price">$18.99</td>
 						</tr>
 					</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="2"></th>
+						</tr>
+					</tfoot>
+				</table>
+
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2" class="category-header">Main Courses</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="dish-row">
+							<td>
+								<div class="dish-name">Master Builder Burger</div>
+								<div class="dish-description">
+									A towering burger with all the fixin’s, served with
+									LEGO-shaped fries
+								</div>
+							</td>
+							<td class="price">$17.99</td>
+						</tr>
+						<tr class="dish-row">
+							<td>
+								<div class="dish-name">Technic Tacos</div>
+								<div class="dish-description">
+									Build-your-own taco bar with an array of fillings and toppings
+								</div>
+							</td>
+							<td class="price">$16.99</td>
+						</tr>
+						<tr class="dish-row">
+							<td>
+								<div class="dish-name">Brick Oven Pizza</div>
+								<div class="dish-description">
+									10” personal pizza featuring constructor’s cheddar, technic
+									tomato sauce and building block basil<br>
+									Optional Toppings:</div>
+									<ul class="sub-description">
+										<li>- Brickaroni Pepperoni</li>
+										<li>- Blocky Bacon Bits</li>
+										<li>- Mosaic Mushrooms</li>
+										<li>- LEGO-licious Olives</li>
+										<li>- Foundation Feta</li>
+									</ul>
+								</div>
+							</td>
+							<td class="price">$17.49</td>
+						</tr>
+						<tr class="dish-row">
+							<td>
+								<div class="dish-name">Architect's Salad</div>
+								<div class="dish-description">
+									A robust, build-your-own salad bar with an array of fresh ingredients
+								</div>
+							</td>
+							<td class="price">$15.99</td>
+						</tr>
+						<tr class="dish-row">
+							<td>
+								<div class="dish-name">Creator's Combo</div>
+								<div class="dish-description">
+									A combination platter featuring mini versions of the Master Builder 
+									Burger, Technic Tacos and Architect’s Salad								
+								</div>
+							</td>
+							<td class="price">$21.99</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="2"></th>
+						</tr>
+					</tfoot>
 				</table>
 			</section>
 		</main>
