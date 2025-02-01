@@ -1,4 +1,5 @@
 /venv
 /templates
 /settings
+/archives
 .DS_Store
