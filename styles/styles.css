@@ -1,21 +1,50 @@
+header {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	transition: all 0.3s ease;
+}
+
+header.shrink {
+	height: 100px; /* Adjust the height as needed */
+	font-size: 1cqb; /* Adjust the font size as needed */
+}
+
 body {
 	font-family: 'Roboto', serif;
 	font-optical-sizing: auto;
+	/* text-align: center; */
 	font-weight: 300;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 18px;
 }
 
-.welcome {
-  font-family: "Ranchers", serif;
-  font-weight: 400;
-  font-style: normal;
+p {
+	text-align: left;
+	padding: 5px;
+	font-size: 20px;
+}
+
+/* .welcome {
+	font-family: "Ranchers", serif;
+	font-weight: 400;
+	font-style: normal;
+} */
+
+.hero-banner {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
 nav {
 	position: sticky;
-	top: 0px;
+	top: 705px; /* Adjust this value to match the height of your header logo */
 	display: block;
+	z-index: 1000; /* Ensure it stays on the same layer as the header */
+	margin-top: 10px; /* Add a small amount of white space between header and nav */
 }
 
 nav ul {
@@ -24,7 +53,6 @@ nav ul {
 	padding: 0%;
 	overflow: hidden;
 	background-color: rgb(89, 225, 240);
-	/* position: -webkit-sticky; Safari */
 	border: 1px solid black;
 }
 
