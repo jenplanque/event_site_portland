@@ -59,10 +59,9 @@ nav {
 	text-shadow: 3px 3px 3px rgba(1, 5, 6, 0.7);
 	background-color: rgb(14, 193, 213);
 	position: sticky;
-	/* top: 705px; // Adjust this value to match the height of your header logo */
 	display: block;
 	z-index: 1000; /* Ensure it stays on the same layer as the header */
-	margin-top: 5px; /* Add a small amount of white space between header and nav */
+	margin-top: 15px; /* Add a small amount of white space between header and nav */
 }
 
 nav ul {
@@ -76,6 +75,7 @@ nav ul {
 
 nav li {
 	float: left;
+	margin-inline: 5px;
 }
 
 nav li a {
@@ -118,4 +118,32 @@ footer {
 	margin-top: 20px;
 	align-items: center;
 	/* border-radius: 10px; */
+}
+
+.loc-header {
+	font-family: Tahoma, sans-serif;
+	font-size: medium;
+	text-shadow: 2px 2px 2px rgba(27, 128, 139, 0.5);
+	margin-top: 40px;
+}
+
+.loc-address {
+	margin: 0;
+	padding: 0%;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 25px;
+	font-size: large;
+	text-shadow: 2px 2px 2px rgba(85, 86, 86, 0.5);
+	margin-top: 20px;
+}
+
+.loc-hours ul {
+	list-style-type: none;
+	margin-left: 5px;
+	padding: 0%;
+	overflow: hidden;
+	font-size: large;
+	text-shadow: 2px 2px 2px rgba(85, 86, 86, 0.5);
+	margin-top: 20px;
 }
