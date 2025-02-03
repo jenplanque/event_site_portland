@@ -2,21 +2,21 @@
 
 .menu-box {
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1200px;
 	padding: 20px;
 	margin: 30px;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
+	margin: auto;
 }
 
 .menu h2 {
 	text-align: center;
-	color: #333;
 }
 
 table {
-	width: 100%;
+	width: 90%;
 	border-collapse: collapse;
 	margin: 20px 0;
 }
@@ -34,13 +34,13 @@ tfoot th {
 	padding-top: 10px;
 }
 
-tbody tr {
+/* tbody tr {
 	border-bottom: 1px solid #ddd;
-}
+} */
 
-tbody tr td {
+/* tbody tr td {
 	border: none;
-}
+} */
 
 .dish-row td {
 	padding: 10px;
@@ -49,23 +49,24 @@ tbody tr td {
 
 .dish-name {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .dish-description {
-	font-style: normal;
-	font-size: 15px;
-	color: #666;
+	font-size: 18px;
 	margin-top: 5px;
+	font-weight: 300;
 }
 
 .price {
 	text-align: right;
 	font-weight: bold;
+	font-size: 18px;
 }
 
 .sub-description {
 	list-style-type: none;
+	font-weight: 500;
 	padding-left: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -73,8 +74,8 @@ tbody tr td {
 
 .sub-description li {
 	font-style: italic;
-	color: #333;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 tbody tr:nth-child(odd) {

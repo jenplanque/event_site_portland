@@ -12,39 +12,51 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,149&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Barrio&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="shortcut icon" href="images/LEGO_favicon.png" type="image/png" />
 		<link rel="stylesheet" href="styles/styles.css" />
 		<link rel="stylesheet" href="styles/contact.css" />
-		<title>Portland Adventure Center - Contact Us Page</title>
+		<title>Portland Adventure Center - Contact Us</title>
 	</head>
 	<body>
-		<header>
-			<h1>Welcome to the Portland Adventure Center</h1>
-			<!-- <h2>CONTACT US</h2> -->
-		</header>
-
-		<main>
-			<nav>
+		<header style="background-color: white">
+			<div style="text-align: center; position: sticky; z-index: 1000"></div>
+			<img
+				src="images/PAC Logo 2.png"
+				alt="Portland Adventure Center name logo"
+				width="700"
+			/>
+			<nav
+				style="
+					position: -webkit-sticky;
+					position: sticky;
+					top: 0;
+					background-color: white;
+					z-index: 1000;
+				"
+			>
 				<ul>
-					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="events.html">Events</a></li>
 					<li><a href="menu.html">Menu</a></li>
 					<li><a href="location.html">Location</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="contact.html" class="active">Contact Us</a></li>
 				</ul>
 			</nav>
-			<section class="contact-box">
-				<h2>Contact Us</h2>
-				<p>
-					Have questions? Want to know more?<br />
+		</header>
+		
+		<main>
+			<section class="contact-us">
+				<h2>
+					Have questions?  Want to know more?<br><br>
 					Contact us using the form below!
-				</p>
-				<br />
+				</h2></section>
+				<br>
 				<fieldset>
-					<legend>Personal Information</legend>
+					<section class="contact-box">
+					<legend><h2>Personal Information</h2></legend>
 					<form action="/submit" method="POST">
 						<label for="name">Name:</label><br />
 						<input
@@ -88,7 +100,7 @@
 						<br /><br />
 
 						<input type="submit" value="Submit" /><br />
-					</form>
+					</form></section>
 				</fieldset>
 			</section>
 		</main>

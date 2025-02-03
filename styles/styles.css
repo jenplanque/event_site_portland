@@ -1,3 +1,20 @@
+.barrio-title {
+	font-family: 'Barrio', serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 36px;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(3, 11, 12, 0.5);
+	color: rgb(255, 220, 88);
+}
+
+.nunito-main {
+	font-family: 'Nunito', serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+}
+
 header {
 	position: sticky;
 	top: 0;
@@ -11,28 +28,25 @@ header.shrink {
 	font-size: 1cqb; /* Adjust the font size as needed */
 }
 
-body {
-	font-family: 'Roboto', serif;
+main {
+	font-family: 'Nunito', serif;
 	font-optical-sizing: auto;
-	/* text-align: center; */
-	font-weight: 300;
+	font-weight: 200;
 	font-style: normal;
-	font-size: 18px;
+	font-size: 20px;
+	max-width: 80em;
+	width: 90%;
+	margin: auto;
 }
 
 p {
-	text-align: left;
-	padding: 5px;
-	font-size: 20px;
+	text-align: justify;
+	/* padding: 5px; */
+	font-size: 18px;
 }
 
-/* .welcome {
-	font-family: "Ranchers", serif;
-	font-weight: 400;
-	font-style: normal;
-} */
-
 .hero-banner {
+	margin-top: 20px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -40,11 +54,15 @@ p {
 }
 
 nav {
+	font-family: Arial Narrow, serif;
+	text-decoration: none;
+	text-shadow: 3px 3px 3px rgba(1, 5, 6, 0.7);
+	background-color: rgb(14, 193, 213);
 	position: sticky;
-	top: 705px; /* Adjust this value to match the height of your header logo */
+	/* top: 705px; // Adjust this value to match the height of your header logo */
 	display: block;
 	z-index: 1000; /* Ensure it stays on the same layer as the header */
-	margin-top: 10px; /* Add a small amount of white space between header and nav */
+	margin-top: 5px; /* Add a small amount of white space between header and nav */
 }
 
 nav ul {
@@ -52,8 +70,8 @@ nav ul {
 	margin: 0;
 	padding: 0%;
 	overflow: hidden;
-	background-color: rgb(89, 225, 240);
-	border: 1px solid black;
+	background-color: rgb(14, 193, 213);
+	border: 1px solid rgb(2, 21, 26);
 }
 
 nav li {
@@ -61,29 +79,43 @@ nav li {
 }
 
 nav li a {
+	font-family: 'Trebuchet MS', sans-serif;
 	display: block;
 	color: white;
 	text-shadow: rgb(100, 100, 100) 1px 1px;
 	text-align: left;
-	font-weight: bold;
+	font-weight: bolder;
 	padding: 14px 16px;
-	text-decoration: none;
+	/* text-decoration: none; */
 }
 
 nav li a:hover {
-	background-color: rgba(14, 193, 213);
+	background-color: rgb(110, 210, 221);
 }
 
 .active {
-	background-color: rgb(14, 193, 213);
+	background-color: rgb(110, 210, 221);
 }
 
 footer {
-	font-family: 'arial', sans-serif;
-	font-size: 12px;
+	font-family: 'Nunito', serif;
+	font-size: 6px;
 	position: relative;
 	text-align: left;
+	top: 20;
 	left: 0;
 	bottom: 0;
 	padding: 2px;
+	width: 90%;
+	margin: auto;
+}
+.intro {
+	text-align: justify;
+	width: 90%;
+	border: 8px solid rgb(14, 193, 213);
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	align-items: center;
+	/* border-radius: 10px; */
 }

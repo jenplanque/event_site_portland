@@ -1,20 +1,30 @@
 /* stylesheet for Contact Us page to help better organize code */
 
+.contact-us {
+	font-family: Tahoma, sans-serif;
+	text-align: left;
+	color: #333;
+	width: 90%;
+	margin-top: 10px;
+	font-size: small;
+	/* font-size: 20px; */
+}
+
 .contact-box {
-	width: 100%;
-	max-width: 500px;
+	width: 90%;
+	max-width: 1000px;
 	padding: 20px;
-	margin: 30px;
+	/* margin: auto; */
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	/* border-radius: 8px; */
 }
 
 .contact-box h2 {
+	font-family: Tahoma, sans-serif;	
 	text-align: left;
 	color: #333;
 	font-size: 24px;
-	font-weight: bold;
+	/* font-weight: bold; */
 	margin-bottom: 30px;
 	margin-top: 5px;
 }
