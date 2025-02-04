@@ -15,6 +15,31 @@
 	font-style: normal;
 }
 
+/* test area for flex boxes */
+.hero-banner {
+  /* background-image: url("images/Coming-Soon-Lego-Banner.png"); hero banner image */
+	/* background-size: cover;  */
+  background-position: center; 
+  color: white;
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+/* 
+.hero-banner {
+	margin-top: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+} */
+
+
 header {
 	position: sticky;
 	top: 0;
@@ -43,14 +68,6 @@ p {
 	text-align: justify;
 	/* padding: 5px; */
 	font-size: 18px;
-}
-
-.hero-banner {
-	margin-top: 20px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
 }
 
 nav {

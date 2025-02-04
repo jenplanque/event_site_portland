@@ -1,0 +1,19 @@
+/* Event Section Styling */
+.section .event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section .event img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.section .event .event-details h3 {
+  margin: 0 0 10px;
+  text-align: center;
+}
