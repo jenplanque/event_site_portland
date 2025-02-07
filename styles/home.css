@@ -1,0 +1,66 @@
+.hero-banner img {
+	display: block;
+	position: relative;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	padding: 20px;
+	z-index: -1;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.intro {
+	text-align: center;
+	width: 90%;
+	/* border: 8px solid rgb(14, 193, 213); */
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	align-items: center;
+	/* border-radius: 10px; */
+}
+
+.welcome {
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+main h1 {
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 35px;
+	margin-top: 40px;
+	color: rgb(40, 214, 196);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+main .sub {
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-style: italic;
+  font-size: 22px;
+	margin-top: 0;
+	color: rgb(40, 214, 196);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+main .slogan {
+font-family: 'Trebuchet MS', sans-serif;
+font-size: 28px;
+justify-items: center;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+margin-bottom: 30px;
+}
+
+main .slogan2 {
+font-family: 'Trebuchet MS', sans-serif;
+font-size: 28px;
+justify-items: left;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+margin-bottom: 30px;
+}

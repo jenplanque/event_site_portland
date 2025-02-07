@@ -4,21 +4,23 @@
 	width: 90%;
 	max-width: 1200px;
 	padding: 20px;
-	margin: 30px;
+	/* margin: 30px; */
 	background-color: #fff;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(1, 1, 1, 0.3);
 	border-radius: 8px;
 	margin: auto;
 }
 
-.menu h2 {
+.menu h1 {
+	font-family: "Trebuchet MS", sans-serif;
 	text-align: center;
+	font-size: 50px;
 }
 
 table {
-	width: 90%;
+	width: 100%;
 	border-collapse: collapse;
-	margin: 20px 0;
+	margin: auto;
 }
 
 thead th {
@@ -33,14 +35,6 @@ tfoot th {
 	border-top: 2px solid #333;
 	padding-top: 10px;
 }
-
-/* tbody tr {
-	border-bottom: 1px solid #ddd;
-} */
-
-/* tbody tr td {
-	border: none;
-} */
 
 .dish-row td {
 	padding: 10px;

@@ -1,19 +1,82 @@
-/* Event Section Styling */
-.section .event {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-.section .event img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-right: 20px;
+.lego-title {
+    font-family: "Barrio", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(238, 49, 49, 0.692);
+        text-shadow: 0 2px 4px rgba(142, 124, 124, 0.9);
+
 }
 
-.section .event .event-details h3 {
-  margin: 0 0 10px;
-  text-align: center;
+.events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.event {
+    background-color: #ffffff;
+    padding: 20px;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 8px rgba(15, 3, 3, .5);
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.event h1 {
+    color: rgba(238, 49, 49, 0.692);
+    text-shadow: 0 2px 4px rgba(88, 65, 65, 0.5);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+.event p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    padding: 0px;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: auto;
+    /* background-color: #ddd; */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
+.image-placeholder img {
+    width: 45%; /* Adjust the width to make the image smaller */
+    height: auto;
+    border-radius: 4px;
+		padding: 10px;
+		/* box-shadow: 2 2 2 rgba(15, 3, 3, .5); */
+}
+
+.description {
+	font-size: 18px;
+  color: #555;
+	width: 100%;
+	text-align: justify;
 }
