@@ -12,22 +12,30 @@
   - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
+  - [Screenshots](#screenshots)
+    - [Home Page](#home-page)
+    - [Events Page](#events-page)
+    - [Menu Page](#menu-page)
+    - [Location Page](#location-page)
+    - [Contact Us Page](#contact-us-page)
   - [Authors](#authors)
 
 ## Introduction
 
 Welcome to the Portland Adventure Center!
 
-This project is a multi-page website that was designed for an entirely made-up event center to showcase the front-end development skills we've learned throughout Module 4 of the Software Development bootcamp at [Coding Temple](www.codingtemple.com).  
+This project is a multi-page website that was designed for an imaginary event center located in Portland, OR to help showcase the front-end development skills we've learned throughout Module 4 of the Software Development bootcamp at [Coding Temple](https://www.codingtemple.com).
 
-This ficticious site featuresLEGO-Palooza, the themed event for the month of February. The website provides information about the events, the center, and various activities and services offered.
+This ficticious site features the Portland Adventure Center, home of LEGO-Palooza 2025, a [LEGO](https://www.lego.com)-themed event for the month of February. It includes detailed information about the events, as well as the center itself and the various activities and services offered.
+
+While LEGO-Palooza is "Technic-ally" an entirely made up event, it really shouldn't be... 😉
 
 ## Features
 
 - Home page with an introduction to the event center
-- Detailed event page for LEGO-Palooza
-- Food menu page with categorized items and prices
-- Location page with directions and contact information
+- Detailed event page for LEGO-Palooza 2025
+- Food menu page with categorized and LEGO-themed items and prices
+- Location page with directions and hours
 - Contact Us page with a contact form
 - Responsive design for mobile and desktop
 
@@ -39,7 +47,7 @@ To get started with the Event Center PDX website, follow these steps:
 
    ```bash
    git clone https://github.com/jenplanque/event_site_portland.git
-   
+
    cd event_site_portland
    ```
 
@@ -62,6 +70,27 @@ To use the Event Center PDX website, follow these steps:
 2. Navigate through the different pages using the navigation bar.
 3. Explore the event details, food menu, location information, and contact form.
 
+## Screenshots
+
+### Home Page
+
+![Home Page](images/screenshot_home.png)
+
+### Events Page
+
+![Event Page](images/screenshot_events.png)
+
+### Menu Page
+
+![Menu Page](images/screenshot_menu.png)
+
+### Location Page
+
+![Location Page](images/screenshot_location.png)
+
+### Contact Us Page
+
+![Contact Us Page](images/screenshot_contact.png)
 
 ## Authors
 
