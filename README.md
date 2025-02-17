@@ -39,6 +39,7 @@ While LEGO-Palooza is "Technic-ally" an entirely made up event, it really should
 - Contact Us page with a contact form
 - Responsive design for mobile and desktop
 
+
 ## Installation
 
 To get started with the Event Center PDX website, follow these steps:
@@ -53,7 +54,8 @@ To get started with the Event Center PDX website, follow these steps:
 
 2. Open the project in your preferred code editor (e.g., Visual Studio Code).
 
-3. Open the [index.html](http://_vscodecontentref_/1) file in your web browser to view the website.
+3. Open the `index.html` file in your web browser to view the website home page.
+
 
 ## Prerequisites
 
@@ -66,7 +68,7 @@ Before you begin, ensure you have met the following requirements:
 
 To use the Event Center PDX website, follow these steps:
 
-1. Open the [index.html](http://_vscodecontentref_/2) file in your web browser.
+1. Open the `index.html` file in your web browser.
 2. Navigate through the different pages using the navigation bar.
 3. Explore the event details, food menu, location information, and contact form.
 
