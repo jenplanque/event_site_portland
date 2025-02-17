@@ -28,7 +28,7 @@ This project is a multi-page website that was designed for an imaginary event ce
 
 This ficticious site features the Portland Adventure Center, home of LEGO-Palooza 2025, a [LEGO](https://www.lego.com)-themed event for the month of February. It includes detailed information about the events, as well as the center itself and the various activities and services offered.
 
-While LEGO-Palooza is "Technic-ally" an entirely made up event, it really shouldn't be... 😉
+While LEGO-Palooza may not "Technic-ally" be a real event, it really should be... 😉
 
 ## Features
 
@@ -38,7 +38,6 @@ While LEGO-Palooza is "Technic-ally" an entirely made up event, it really should
 - Location page with directions and hours
 - Contact Us page with a contact form
 - Responsive design for mobile and desktop
-
 
 ## Installation
 
@@ -55,7 +54,6 @@ To get started with the Event Center PDX website, follow these steps:
 2. Open the project in your preferred code editor (e.g., Visual Studio Code).
 
 3. Open the `index.html` file in your web browser to view the website home page.
-
 
 ## Prerequisites
 
